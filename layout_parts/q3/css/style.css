@@ -2,4 +2,22 @@
 
 /* 回答はここに書いてね */
 
+.eating{
+  width:100%;
+  text-align:center;
+}
+.eating tr td,.eating tr th{
+    border:solid #dedede 1px;
+    padding:10px;
+}
+.eating tr:nth-child(2n+3){
+  background-color:#ecf1f2;
+}
+.eating tr:last-child{
+  border-top:dashed #002 2px;
+}
+.eating tr td:first-child , .tb_head{
+  background-color:#2244aa;
+    color:#fff;
+}
 /* 回答はここに書いてね */
