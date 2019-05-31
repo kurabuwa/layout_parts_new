@@ -1,5 +1,246 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.small{
+  display:inline-block;
+  border-radius:3px;
+  font-size:16px;
+  line-height:26px;
+  padding:0 15px;
+  vertical-align:baseline;
+}
+.mid{
+  border-radius:5px;
+  font-size:20px;
+  display:inline-block;
+  line-height:26px;
+  padding:0 20px;
+  vertical-align:baseline;
+}
+.lar{
+  border-radius:7px;
+  font-size:24px;
+  display:inline-block;
+  line-height:26px;
+  padding:0 25px;
+  vertical-align:baseline;
+}
+.com{
+  background-color:#00bcd4;
+  color:#fff;
+}
+.err{
+  background-color:#ff4081;
+  margin-left:10px;
+    color:#fff;
+}
+.dis{
+  background-color:#e5e5e5;
+    margin-left:10px;
+      color:#fff;
+}
+.sha{
+    margin-left:10px;
+  box-shadow:0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
+}
+.form{
+  width:700px;
+  padding:20px;
+  margin:0 auto;
+  background-color:#ecf1f2;
+}
+.form_title{
+  position:relative;
+  margin-bottom:20px;
+}
+.form_title_text{
+  position:relative;
+  font-size:24px;
+  font-weight:bold;
+  display:inline-block;
+  padding-right:10px;
+  background-color:#ecf1f2;
+}
+.form_title::before{
+  position:absolute;
+  top:50%;
+  left:0;
+  content:"";
+  width:100%;
+  height:1px;
+  background-color:#ccc;
+}
+.clearfix::after{
+  display:block;
+  content:"";
+  clear:both;
 
+}
+.form_info{
+  width:300px;
+  float:left;
+}
+.form_content{
+  width:380px;
+  float:right;
+}
+.form_item_name{
+  position:relative;
+  float:left;
+  width:100px;
+  text-align:right;
+  line-height:25px;
+}
+.form_item_data{
+  float:left;
+  width:100px;
+}
+.form_age{
+  float:right;
+}
+.form_btn{
+  float:right;
+  outline:none;
+  border:none;
+  box-sizing:border-box;
+  padding:0px 10px;
+  font-size:16px;
+  line-height:26px;
+  color:#fff;
+  border-radius:5px;
+  background-color:#00bcd4
+}
+.form_content{
+  height:203px;
+}
+.form_item{
+  margin-bottom:20px;
+}
+.form_item > li{
+  margin-top:20px;
+}
+.form_item > li:first-child{
+  margin-top:0;
+}
+.form_text, .form_mail, .form_tel{
+  float:right;
+  width:180px;
+  outline:none;
+  border:none;
+  border-radius:3px;
+  box-sizing:border-box;
+  padding:5px;
+  font-size:12px;
+  line-height:12px;
+}
+.form_radio{
+  float:right;
+  width:180px;
+}
+.form_item_from{
+  float:right;
+  width:180px;
+  box-sizing:border-box;
+  padding:5px;
+  border:none;
+  font-size:12px;
+  -webkit-appearance:none;
+  border-radius:3px;
+  line-height:12px;
+  outline:none;
+  background-color:#fff;
+}
+.form_content{
+  box-sizing:border-box;
+  padding:10px;
+  border:none;
+  -webkit-appearance:none;
+  border-radius:3px;
+  font-size:12px;
+  outline:none;
+  resize:none;
+}
+.form_gender{
+  display:inline-block;
+  padding:3px 3px 3px 20px;
+  position:relative;
+}
+.form_gender::before{
+  position:absolute;
+  top:50%;
+  left:0;
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background-color:#fff;
+  content:"";
+  margin-top:-8px;
+  border:1px solid #ccc;
+}
+.form_radio_item{
+  display:none;
+}
+.form_radio_item:checked + .form_gender::after{
+  position:absolute;
+  top:50%;
+  left:4px;
+  height:8px;
+  width:8px;
+  background-color:#00bcd4;
+  border-radius:50%;
+  margin-top:-4px;
+  content:"";
+}
+.checkbox_btn{
+  display:none;
+}
+.form_age_twenty{
+  position:relative;
+  padding-left:24px;
+}
+.form_age_twenty:before{
+  content:"";
+  height:16px;
+  width:16px;
+  border:1px solid #ccc;
+  background-color:#fff;
+  position:absolute;
+  left:0;
+  top:50%;
+  margin-top:-9px;
+}
+.checkbox_btn:checked +.form_age_twenty:after{
+  content:"";
+  position:absolute;
+  height:16px;
+  width:8px;
+  border-right:3px solid #00bcd4;
+  border-bottom:3px solid #00bcd4;
+  transform:rotate(45deg);
+  left:6px;
+  top:50%;
+  margin-top:-14px;
+}
+.required{
+  color:#f00;
+}
+.form_item_des:after{
+  display:block;
+  content:"";
+  height:8px;
+  width:8px;
+  position:absolute;
+  transform:rotate(45deg);
+  border-right:2px solid #e5e5e5;
+  border-bottom:2px solid #e5e5e5;
+  right:10px;
+  top:4px;
+}
+.form_item_des_rela{
+  position:relative;
+}
+.form_btn:active{
+  color:#00bcd4;
+  background-color:#fff
+}
 /* 回答はここに書いてね */
