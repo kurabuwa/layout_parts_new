@@ -1,39 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.two_fix,.one_fix{
+.fix{
+  padding:20px;
+}
+.contents{
   width:100%;
   display:table;
   table-layout: fixed;
 }
-.table_cell{
-  display:table-cell;
+.contents:last-child{
+  margin-top:20px;
 }
-.two_fix .side_left, .two_fix .main, .two_fix .side_right,
-.one_fix .side_left, .one_fix .main, .one_fix .side_right{
-  padding:20px 0px;
+.contents-cell{
+  padding:20px;
   text-align:center;
   display:table-cell;
-  margin:0 auto;
 }
-.two_fix .main{
+.center-main{
   background-color:#f0abd9;
 }
-.two_fix .side_left{
+.center-left{
   width:100px;
   background-color:#fdc8b8;
 }
-.two_fix .side_right{
+.center-right{
   width:100px;
   background-color:#b6e8ed;
 }
-.one_fix .main{
+.side-main{
   background-color:#ec8f9a;
 }
-.one_fix .side_left{
+.side-left{
   background-color:#e5d32e;
 }
-.one_fix .side_right{
+.side-right{
   width:500px;
   background-color:#8fdcad;
 }
