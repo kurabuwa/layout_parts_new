@@ -3,6 +3,7 @@
 /* 回答はここに書いてね */
 .balloon{
   position:relative;
+  box-sizing:border-box;
   width:500px;
   padding:20px;
   font-size:16px;
@@ -21,6 +22,29 @@
   background-color: #fff;
   left:30px;
   bottom:-21px;;
+}
+
+.balloon:after{
+  content:"";
+  display:block;
+  width:0px;
+  height:0px;
+  border-top:30px solid #fff;
+  border-left:30px solid transparent;
+  border-right:30px solid transparent;
+  position:absolute;
+  top:112.93px;
+}
+.balloon:before{
+  position:absolute;
+  top:120px;
+  content:"";
+  display:block;
+  width:0px;
+  height:0px;
+  border-top:30px solid #222;
+  border-left:30px solid transparent;
+  border-right:30px solid transparent;
 }
 
 /* 回答はここに書いてね */

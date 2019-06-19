@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7-1
+.q7-flo
 {
   box-sizing:border-box;
   float:left;
@@ -9,7 +9,7 @@
   margin-left: 50px;
   font-size:16px;
   }
-.q7-1:first-child{
+.q7-flo:first-child{
   margin:0;
 }
 .clearfix::after{
@@ -24,14 +24,14 @@
   display:table-cell;
   vertical-align:middle;
 }
-.q7-2
+.q7-tab
 {
   box-sizing:border-box;
   width:225px;
   margin-left: 50px;
   font-size:16px;
   }
-.q7-2:first-child{
+.q7-tab:first-child{
   margin:0;
 }
 .dis-in-bl{
@@ -54,19 +54,19 @@
   justify-content:space-around;
   align-items:flex-end;
 }
-.q7-4{
+.q7-fle{
   box-sizing:border-box;
   width:225px;
   font-size:16px;
 }
-.q7-5-fix{
+.q7-sbs-fix{
   display:inline-block;
   font-size:16px;
   box-sizing:border-box;
   width:300px;
   vertical-align:top;
 }
-.q7-5-flex{
+.q7-sbs-flex{
   display:inline-block;
   font-size:16px;
   margin-left:50px;

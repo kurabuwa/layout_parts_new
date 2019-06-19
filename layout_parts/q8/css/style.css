@@ -13,7 +13,7 @@
   border-radius:5px;
   font-size:20px;
   display:inline-block;
-  line-height:26px;
+  line-height:32px;
   padding:0 20px;
   vertical-align:baseline;
 }
@@ -21,7 +21,7 @@
   border-radius:7px;
   font-size:24px;
   display:inline-block;
-  line-height:26px;
+  line-height:38px;
   padding:0 25px;
   vertical-align:baseline;
 }
@@ -99,6 +99,7 @@
   float:right;
 }
 .form_btn{
+  cursor:pointer;
   float:right;
   outline:none;
   border:none;
@@ -161,9 +162,11 @@
   resize:none;
 }
 .form_gender{
+  cursor:pointer;
   display:inline-block;
   padding:3px 3px 3px 20px;
   position:relative;
+
 }
 .form_gender::before{
   position:absolute;
@@ -242,5 +245,14 @@
 .form_btn:active{
   color:#00bcd4;
   background-color:#fff
+}
+.form_text:focus{
+  box-shadow:0px 0px 7px #00bcd4;
+}
+.form_mail:focus{
+  box-shadow:0px 0px 7px #00bcd4;
+}
+.form_content:focus{
+  box-shadow:0px 0px 7px #00bcd4;
 }
 /* 回答はここに書いてね */
