@@ -1,7 +1,7 @@
 @charset "UTF-8";
-
+/*  縮める必要ない*/
 /* 回答はここに書いてね */
-.q7-flo
+.q7-float
 {
   box-sizing:border-box;
   float:left;
@@ -9,7 +9,7 @@
   margin-left: 50px;
   font-size:16px;
   }
-.q7-flo:first-child{
+.q7-float:first-child{
   margin:0;
 }
 .clearfix::after{
@@ -24,14 +24,14 @@
   display:table-cell;
   vertical-align:middle;
 }
-.q7-tab
+.q7-table
 {
   box-sizing:border-box;
   width:225px;
   margin-left: 50px;
   font-size:16px;
   }
-.q7-tab:first-child{
+.q7-table:first-child{
   margin:0;
 }
 .dis-in-bl{
